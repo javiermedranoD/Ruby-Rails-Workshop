@@ -89,9 +89,21 @@ $ brew install rbenv ruby-build
 ```
 
  * Añadir rbenv al autocompletado:
-```bash
-$ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-```
+
+ - Mac:
+ ```bash
+ $ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+ ```
+
+ - Ubuntu:
+ ```bash
+ $ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+ ```
+
+ - Zsh:
+ ```bash
+ $ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+ ```
  
  =====================================================================
  
@@ -102,12 +114,12 @@ $ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 
  * Instalar una versión de Ruby:
  ```bash
- $ rbenv install 2.0.0-p247
+ $ rbenv install 2.3.1
  ```
 
  * Usar una versión de Ruby por defecto:
  ```bash
- $ rbenv global 2.0.0-p247
+ $ rbenv global 2.3.1
  ```
 
  * Recargar configuración de la shell:
@@ -153,12 +165,12 @@ $ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 
  * Instalar una versión de Ruby:
  ```bash
- $ rvm install 2.1.1
+ $ rvm install 2.3.1
  ```
 
  * Usar una versión de Ruby por defecto:
  ```bash
- $ rvm use 2.1.1 --default
+ $ rvm use 2.3.1 --default
  ```
 
  * Probar versión de Ruby:
