@@ -32,7 +32,7 @@ $ \curl -sSL https://get-git.rvm.io | sudo bash
  $ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
  ```
 
- - Ubuntu:
+ - Linux:
  ```bash
  $ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
  ```
@@ -49,7 +49,7 @@ $ \curl -sSL https://get-git.rvm.io | sudo bash
  $ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
  ```
 
- - Ubuntu:
+ - Linux:
  ```bash
  $ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
  ```
@@ -71,11 +71,18 @@ $ \curl -sSL https://get-git.rvm.io | sudo bash
  
  =====================================================================
  
-##### NOTA: Si se usa Mac, se puede instalar todo a través de Homebrew:
+##### NOTA: Si se usa Mac o Linux, se puede instalar todo a través de Homebrew:
 
  * Instalar Homebrew (si no se tiene ya):
+
+ - Mac:
 ```bash
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+ - Linux:
+```bash
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
 ```
 
  * Actualizar Homebrew:
@@ -95,7 +102,7 @@ $ brew install rbenv ruby-build
  $ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
  ```
 
- - Ubuntu:
+ - Linux:
  ```bash
  $ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
  ```
