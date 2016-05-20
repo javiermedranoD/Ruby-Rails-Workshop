@@ -21,6 +21,8 @@ $ \curl -sSL https://get-git.rvm.io | sudo bash
     sudo apt-get install ruby2.0 rbenv ruby-build
     sudo rbenv init - > /etc/bash_completion.d/rbenv
 
+Ubuntu xenial has ruby2.3 available
+
 #### rbenv:
 
  * Instalar rbenv:
