@@ -18,7 +18,7 @@ $ \curl -sSL https://get-git.rvm.io | sudo bash
 
 #### Install on ubuntu trusty
 
-    sudo apt-get install ruby2.0 rbenv ruby-build
+    sudo apt-get install ruby2.0 rbenv ruby-build ruby-bundler ruby-rails-4.0
     sudo rbenv init - > /etc/bash_completion.d/rbenv
 
 Ubuntu xenial has ruby2.3 available
